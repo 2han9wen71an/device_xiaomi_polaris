@@ -1,2 +1,0 @@
-add_lunch_combo aosp_polaris-userdebug
-add_lunch_combo aosp_polaris-eng
