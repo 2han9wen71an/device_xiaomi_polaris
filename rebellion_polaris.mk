@@ -7,7 +7,7 @@
 $(call inherit-product, device/xiaomi/polaris/device.mk)
 
 # Inherit some common rebellion stuff.
-$(call inherit-product, vendor/rebellion/config/common_full_phone.mk)
+$(call inherit-product, vendor/rebellion/config/common.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rebellion_polaris
