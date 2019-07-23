@@ -8,6 +8,7 @@ $(call inherit-product, device/xiaomi/polaris/device.mk)
 
 # Inherit some common rebellion stuff.
 $(call inherit-product, vendor/rebellion/config/common.mk)
+REBELLION_BUILD_TYPE := OFFICAL
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := rebellion_polaris
